@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moja pierwsza strona</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="https://images.vexels.com/media/users/3/140692/isolated/lists/72d1f12edf758d24f5b6db73bac4f297-linux-logo.png" alt="obrazek.png"
+                width="100" 
+                height="100"/>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Strona Główna</a></li>
+                    <li><a href="../o_mnie/index.html">O mnie</a></li>
+                </ul>
+            </nav>  
+        </header>
+
+        <main>  
+            <section>
+                <h1>Kontakt</h1> 
+                <p>Zachęcam do kontaktu - zobaczę czy mogę Ci pomóć</p>
+                <ul>
+                    <li>Tomasz Smyda</li>
+                    <li>tel: 790 123 123</li>
+                    <li>tomasz.smyda@shoper.pl</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Możesz też wypełnić formularz kontaktowy - skontaktuję się z Tobą</h3>               
+                <form action="#">
+
+                    <div>
+                        <label>
+                            Imię i nazwisko
+                            <input type="text" name="Name" placeholder="Twoje imię i nazwisko">
+                        </label>
+                    </div>
+                    
+                    <div>
+                        <label>
+                            Adres e-mail
+                            <input type="text" name="Email_Adress" placeholder="Twój adres e-mail">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Numer telefonu
+                            <input type="number" name="Phone_Number" placeholder="Twój numer kontaktowy">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            Opisz swój problem
+                            <textarea name="description" cols="30" rows="5"></textarea>
+                        </label>
+                    </div>
+
+                    <div>
+                        <select name="country">
+                            <option value="">Polska</option>
+                            <option value="">Ukraina</option>
+                            <option value="">Niemcy</option>
+                            <option value="">Francja</option>
+                            <option value="">Hiszpania</option>
+                        </select>
+                    </div> 
+
+                    <div>
+                        <label>
+                            Wyrażam zgodę markeringową i akceptuję regulamin
+                            <input type="checkbox" name="Marketing_Consent">
+                        </label>
+                    </div>  
+
+                    <div>
+                        <label>
+                            <input type="submit">
+                        </label>
+                    </div> 
+                </form>
+            </section>
+            
+        </main>
+        
+    </body>
+</html>
